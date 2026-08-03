@@ -1,0 +1,114 @@
+/* ---------- Général ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+}
+
+/* ---------- Header ---------- */
+
+header {
+    position: sticky;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+
+    padding: 15px 25px;
+
+    background: white;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+
+    z-index: 1000;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.center {
+    flex: 1;
+
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.center a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    font-weight: bold;
+
+    transition: color 0.2s;
+}
+
+.center a:hover {
+    color: #0099ff;
+}
+
+/* ---------- Contenu ---------- */
+
+.visible {
+    padding: 50px 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.visible h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.visible h2 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.visible p {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.img_grand {
+    width: 300px;
+    margin: 30px 0;
+}
+
+.visible .droite {
+    right: 5%;
+}
+
+/* ---------- Bouton ---------- */
+
+.button {
+    display: inline-block;
+
+    padding: 15px 30px;
+
+    background: #5865F2;
+    color: white;
+
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+
+    border-radius: 10px;
+
+    transition: background 0.2s;
+}
+
+.button:hover {
+    background: #4752c4;
+}
