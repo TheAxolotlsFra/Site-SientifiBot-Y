@@ -30,10 +30,14 @@ header {
 
 footer {
     position: sitcky;
-    bottom: 0;
+    bottom: 25px;
 
     display: flex;
     align-item: center;
+
+    padding: 15px 25px;
+
+    background: white;
 }
 
 .logo {
