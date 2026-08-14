@@ -28,6 +28,14 @@ header {
     z-index: 1000;
 }
 
+footer {
+    position: sitcky;
+    bottom: 0;
+
+    display: flex;
+    align-item: center;
+}
+
 .logo {
     width: 50px;
     height: 50px;
